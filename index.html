@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- css -->
+    <!-- js -->
+    <script src="./index.js"></script>
+    <!-- js -->
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <!-- jquery -->
+    <title>MY BLOG</title>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header-wrap">
+                <a onclick="changeMode(event)" class="home" href="./index.html">
+                    <img class="home" src="./public/logo.svg" alt="/">
+                    HOME
+                </a>
+                    <ul>
+                        <li><a onclick="changeMode(event, 'NOTE')" href="javascript:void(0);">NOTE</a></li>
+                        <!-- <li><a onclick="changeMode(event, 'PROJECTS')" href="javascript:void(0);">PROJECTS</a></li> -->
+                        <li><a onclick="alert('준비중입니다.')" href="javascript:void(0);">PROJECTS</a></li>
+                        <li><a onclick=location.href="https://github.com/xxmbchanxx" href="javascript:void(0);">GIT HUB</a></li>
+                    </ul>
+                <p>ⓒ 2022. MBC All rights reserved</p>
+            </div>
+            <div class="header-toggle-btn">
+                <button class="toggle-btn" onclick="toggleBtn(event)">&lt;</button>
+            </div>
+        </header>
+        <main>
+            <!-- mode - main - start -->
+            <section id="mode-main">
+                <div class="sticky-wrap">
+                    <div class="card-wrap card1">
+                        <div class="card">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </div>
+                    </div>
+                    <div class="card-wrap card2">
+                        <div class="card">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </div>
+                    </div>
+                    <div class="card-wrap card3">
+                        <div class="card">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </div>
+                    </div>
+                    <div class="card-wrap card4">
+                        <div class="card">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </div>
+                    </div>
+                    <div class="card-wrap card5">
+                        <div class="card">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <!-- mode - main - end -->
+            <!-- mode - note - start -->
+            <section id="mode-note">
+                <h1>NOTE</h1>
+            </section>
+            <!-- mode - note - end -->
+            <!-- mode - projects - start -->
+            <section id="mode-projects">
+                <h1>PROJECTS</h1>
+            </section>
+            <!-- mode - projects - end -->
+        </main>
+    </div>
+
+    <script>
+        
+    </script>
+</body>
+</html>
